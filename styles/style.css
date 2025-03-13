@@ -1,0 +1,955 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    background-color: #003366;
+    
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.mail{
+    margin-right: 20px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.mail p{
+    padding-left: 10px;
+    float: right;
+}
+.certificate{
+    margin-right: 20px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.certificate p{
+    padding-left: 10px;
+    float: right;
+}
+.middle p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.last select {
+    width: 130px;
+    height: 35px;
+    margin-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 2px solid white;
+    background: #003366;
+    padding-left: 10px;
+
+}
+.social-icons{
+    margin-top: 8px;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    
+}
+.menu-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding-top : 8px;
+}
+.logo img{
+    width: 100%;
+    height: 65px;
+}
+
+.menu-list li{
+    display: inline;
+    padding-left: 5px;
+    position: relative;
+}
+.menu-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 28px 5px;
+}
+    /* Courses Submenu Start  */
+.courses-submenu{
+    width: 1100px;
+    height: 450px;
+    position: absolute;
+    top: 49px;
+    left: -500px;
+    overflow: hidden scroll;
+    line-height: 30px;
+    background-color: #ffffff;
+    display: none;
+}
+.courses-submenu h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.courses-submenu li{
+    display: block;
+}
+.courses-submenu a{
+    background-color: transparent;
+    padding: 0;
+}
+.courses-submenu i{
+    padding-right: 5px;
+}
+.courses-submenu img{
+    width: 15px;
+    height: 400px;
+}
+.menu-list li:hover .courses-submenu{
+    display: inline-flex;
+}
+#kk{
+    width: 25px;
+    height: 730px;
+    margin-top: 25px;
+}
+    /* courses submenu over  */
+
+    /* Activity submenu  */
+.activity-submenu{
+    position: absolute;
+    top: 49px;
+    left: 10px;
+    line-height: 30px;
+    background-color: #ffffff;
+    display: none;
+    padding: 1px 5px;
+}
+.activity-submenu li{
+    display: block;
+}
+.activity-submenu a{
+    background-color: transparent;
+    padding: 0;
+}
+.menu-list li:hover .activity-submenu{
+    display: block;
+}
+    /* Activity submenu  end */
+
+    /* Know us submenu  */
+
+.knownus-submenu{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 49px;
+    left: 10px;
+    line-height: 30px;
+    background-color: #ffffff;
+    display: none;
+}
+.knownus-submenu li{
+    display: block;
+}
+.knownus-submenu a{
+    background-color: transparent;
+    padding: 0;
+}
+.menu-list li:hover .knownus-submenu{
+    display: block;
+}
+    /* Know us submenu end */
+
+    /* student zone submenu  */
+
+.student-zone-submenu{
+    position: absolute;
+    top: 49px;
+    left: 10px;
+    line-height: 30px;
+    background-color: #ffffff;
+    display: none;
+    padding: 1px 2px;
+}
+.student-zone-submenu li{
+    display: block;
+    text-align: center;
+}
+.student-zone-submenu a{
+    background-color: transparent;
+    padding: 0;
+}
+.menu-list li:hover .student-zone-submenu{
+    display: block;
+}
+
+    /* student zone submenu end */
+
+    /* landing Page Start  */
+
+.landing-page{
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url(../images/Game-Design--Development.jpg);
+    animation: changeImage 45s linear infinite;
+}
+@keyframes changeImage {
+    16.66% {
+        background-image: url(../images/Game-Design--Development.jpg);
+    }
+
+    33.32% {
+        background-image: url(../images/Ethicakl-Hacking.webp);
+    }
+
+    49.98% {
+        background-image: url(../images/web-design-institute-gujarat-surat.webp);
+    }
+    66.64% {
+        background-image: url(../images/_0001_web-developments.webp);
+    }
+    83.30% {
+        background-image: url(../images/2.webp);
+    }
+    100% {
+        background-image: url(../images/5.webp);
+    }
+}
+    /* landing Page Stop  */
+
+    /* Offered Courses Start  */
+.offered-courses-container{
+    width: 100%;
+    height: auto;
+}
+.offered-courses{
+    width: 100%;
+    height: auto;
+}
+.heading{
+    text-align: center;
+    padding: 60px 10px;
+}
+.heading h5{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading h4{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    /* Row one start  */
+
+.row-1-offer-courses{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.development-course{
+    width: 320px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.development-course:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.design-courses{
+    width: 320px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.design-courses:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.programming-it{
+    width: 320px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.programming-it:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+    /* Row one stop  */
+
+    /* Row two Start  */
+
+.row-2-offer-courses{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.trendy-courses{
+    width: 320px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.trendy-courses:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.cm-engineering-courses{
+    width: 320px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.cm-engineering-courses:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.business-development{
+    width: 320px;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.business-development:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+    /* Row two End  */
+
+.p p{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px 10px;
+}
+.bottom-side{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+
+}
+#btn{
+    padding: 8px 10px;
+    background-color: #003366;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+    /* All Courses button  */
+.all-course{
+    margin: 50px 0px;
+    text-align: center;
+}
+.all-course button{
+    padding: 12px 25px;
+    background-color: #ffc107;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+    /* Offered Courses End  */
+
+    /* About Section Start  */
+.about-section{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+.about-creative{
+    width: 55%;
+    position: relative;
+}
+.about{
+    width: 110%;
+    height: 470px;
+    position: absolute;
+    border-radius: 0px 250px 250px 0px;
+    box-shadow: 2px 2px 5px grey;
+    background-color: #ffffff;
+
+}
+.about h5{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 20px;
+    font-weight: 300;
+    margin-top: 30PX;
+
+}
+.about h4{
+    margin-top: 20px;
+    text-indent: 15px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about p{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 25px;
+    text-indent: 15px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 22px;
+    text-align: justify;
+}
+.about button{
+    width: 150px;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    border: none;
+}
+.video-creative {
+    width: 45%;
+    height: 420px;
+    margin-top: 10px;
+}
+.video-creative img{
+    width: 100%;
+    height: 420px;
+    margin-top: 10px;
+
+}
+    /* About Section Over  */
+
+    /* Happy Student , Certification Approval, Certified Teacher, Student Placed Start */
+
+.hccs-container{
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/counter_bg.jpg);
+    position: relative;
+    background-attachment: scroll;
+    background-size: 100% 250px;
+}
+.hccs-container2{
+    width: 100%;
+    height: 250px;
+    background-color: #162616aa;
+    filter: blur(2px);
+}
+.hccs-container-content{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50px;
+}
+.happy-students{
+    text-align: center;
+}
+.happy-students img{
+    width: 80px;
+    height: 80px;
+}
+.happy-students h4{
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.happy-students p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.certificate-approval{
+    text-align: center;
+}
+.certificate-approval img{
+    width: 80px;
+    height: 80px;
+}
+.certificate-approval h4{
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.certificate-approval p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.teacher{
+    text-align: center;
+}
+.teacher img{
+    width: 80px;
+    height: 80px;
+}
+.teacher h4{
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.teacher p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.placed-student{
+    text-align: center;
+}
+.placed-student img{
+    width: 80px;
+    height: 80px;
+}
+.placed-student h4{
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.placed-student p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-top: 10px;
+}
+    /* Happy Student , Certification Approval, Certified Teacher, Student Placed Over */
+
+    /* Happy Students Section Start */
+
+.happy-student-section{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    padding-bottom: 75px;
+}
+.alumni-speak{
+    width: 100%;
+    height: auto;
+}
+.happy-student-section-heading h5{
+    width: 450px;
+    height: auto;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.happy-student-section-heading h4{
+    width: 450px;
+    height: auto;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.happy-student-section-btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.happy-student-section-coma img{
+    width: 100px;
+    margin-top: 50px;
+}
+.happy-student-section-btns{
+    display: flex;
+}   
+.img-arrow1 img{
+    width: 40px;
+    margin-top: 75px;
+    background-color: #f9f9f9;
+    transform: rotate(180deg);
+    border-radius: 25px;
+}
+.img-arrow2 img{
+    width: 40px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    margin-top: 75px;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.happy-student-section-paragraph p{
+    width: 95%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    line-height: 25px;
+}
+.happy-student-profile{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.happy-student-photo img{
+    width: 70px;
+    border-radius: 50px;
+}
+.happy-student-name h4{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.happy-student-name p{
+    margin-left: 15px;
+    margin-top: 5px;
+    color: #ffc107;
+}
+.happy-student-name span{
+    color: gray;
+}
+.happy-student-section-image{
+   width: 100%;
+   height: auto;
+}
+.happy-student-image-photo{
+    position: relative;
+    width: 80%;
+    height: 450px;
+}
+.happy-student-image-photo img{
+    width: 125%;
+    height: 450px;
+}
+.happy-student-image-shape{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+}
+.happy-student-image-shape img{
+    width: 125%;
+    height: 450px;
+}
+    /* Happy Students Section Over */
+
+    /* WHY CHOOSE CREATIVE  Start */
+
+.why-choose-creative-container{
+    width: 100%;
+    height: auto;
+    background-color: #d8d2d2;
+}
+.why-creative-heading{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 50px;
+    text-align: center;
+}
+.why-creative-heading p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.why-creative-heading h4{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+.reason-row1{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.reason-row1-cl{
+    width: 320px;
+    height: 320px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 25px;
+}
+.reason-row1-cl:hover{
+    margin-top: -5px;
+    transition: all ease-in-out .3s;
+}
+.reason-row1-cl img{
+    width: 100px;
+    margin-top: 30px;
+    background-color: #d8d2d2;
+    border-radius: 50px;
+}
+.reason-row1-cl h4{
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.reason-row1-cl p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #676464;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.reason-row2{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.reason-row2-cl{
+    width: 320px;
+    height: 320px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 25px;
+}
+.reason-row2-cl:hover{
+    margin-top: -5px;
+    transition: all ease-in-out .3s;
+}
+.reason-row2-cl img{
+    width: 100px;
+    margin-top: 30px;
+    background-color: #d8d2d2;
+    border-radius: 50px;
+}
+.reason-row2-cl h4{
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.reason-row2-cl p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #676464;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    /* Why Choose Creative end  */
+
+    /* Student Placement section start  */
+
+.stu-placement{
+    width: 100%;
+    height: auto;
+}
+.partner{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.partner h4{
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.partner p{
+    margin-top: 5px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    word-spacing: 15px;
+}
+.partner-logos{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.partner-logos img{
+    width: 180px;
+    height: 100px;
+    border-radius: 2px;
+    border: 1px solid grey;
+}
+    /* Student Placement section start  */
+
+    /* Demanding Courses  */
+    
+.demanding-courses{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.demanding-courses h4{
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+.demanding-courses-list{
+    margin-bottom: 12px;
+}
+.demanding-courses-list a{
+    display: inline-block;
+    font-size: 12.5px;
+    border: 1px solid gray;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: .5px 3px;
+    margin-top: 5px;
+}
+.demanding-courses-list a:hover{
+    background-color: #ffc107;
+    color: #ffffff;
+    border: 1px solid yellow;
+    border-radius: 2px;
+}
+.show-more{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+        /* Footer Start  */
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #003366;
+}
+.footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.social-logos-footer{
+    width: 50%;
+}
+.social-logos-footer img{
+    width: 50%;
+}
+.social-logos-footer p{
+    width: 80%;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.social-logos-footer h4{
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffc107;
+    text-align: left;
+}
+.footer-social-icon{
+    width: 320px;
+    margin-top: 15px;
+    text-align: left;
+}
+.footer-social-icon i{
+    margin-left: 10px;
+    text-align: center;
+    align-content: center;
+    background-color: #41566c;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+.feature-links h4{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.feature-links li{
+    list-style: none;
+    line-height: 28px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.feature-links i{
+    padding-right: 10px;
+}
+.feature-links li:hover{
+    margin-left: 8px;
+    color: #ffc107;
+    transition: all ease-in-out .5s;
+}
+.contact-footer h4{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.contact-footer a{
+    text-decoration: none;
+    color: #ffc107;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.contact-footer p{
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.contact-footer li{
+    list-style: none;
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-footer i{
+    padding-right: 10px;
+}
+.contact-footer li:hover{
+    color: #ffc107;
+    margin-left: 10px;
+    transition: all ease-in-out .6s;
+}
+.copy-right{
+    width: 100%;
+    height: 80px;
+    align-content: center;
+    background-color: #042649;
+}
+.copy-right p{
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

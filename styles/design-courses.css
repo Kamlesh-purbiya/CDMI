@@ -1,0 +1,607 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 55px;
+    background-color: #003366;
+    
+}
+.navigation{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.mail{
+    margin-right: 20px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.mail p{
+    padding-left: 10px;
+    float: right;
+}
+.certificate{
+    margin-right: 20px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.certificate p{
+    padding-left: 10px;
+    float: right;
+}
+.middle p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.last select {
+    width: 130px;
+    height: 35px;
+    margin-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: 2px solid white;
+    background: #003366;
+    padding-left: 10px;
+
+}
+.social-icons{
+    margin-top: 8px;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    
+}
+.menu-content{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    padding-top : 8px;
+    margin-left: 10px;
+}
+.logo img{
+    width: 95%;
+    height: 65px;
+}
+
+.menu-list li{
+    display: inline;
+    padding-left: 5px;
+    position: relative;
+}
+.menu-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 28px 5px;
+}
+
+.courses-submenu{
+    width: 1100px;
+    height: 450px;
+    position: absolute;
+    top: 49px;
+    left: -500px;
+    overflow: hidden scroll;
+    line-height: 30px;
+    background-color: #ffffff;
+    display: none;
+}
+.courses-submenu h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.courses-submenu li{
+    display: block;
+}
+.courses-submenu a{
+    background-color: transparent;
+    padding: 0;
+}
+.courses-submenu i{
+    padding-right: 5px;
+}
+.courses-submenu img{
+    width: 15px;
+    height: 400px;
+}
+.menu-list li:hover .courses-submenu{
+    display: inline-flex;
+}
+#kk{
+    width: 25px;
+    height: 730px;
+    margin-top: 25px;
+}
+.activity-submenu{
+    position: absolute;
+    top: 49px;
+    left: 10px;
+    line-height: 30px;
+    background-color: #ffffff;
+    display: none;
+    padding: 1px 5px;
+}
+.activity-submenu li{
+    display: block;
+}
+.activity-submenu a{
+    background-color: transparent;
+    padding: 0;
+}
+.menu-list li:hover .activity-submenu{
+    display: block;
+}
+.knownus-submenu{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: 49px;
+    left: 10px;
+    line-height: 30px;
+    background-color: #ffffff;
+    display: none;
+}
+.knownus-submenu li{
+    display: block;
+}
+.knownus-submenu a{
+    background-color: transparent;
+    padding: 0;
+}
+.menu-list li:hover .knownus-submenu{
+    display: block;
+}
+.student-zone-submenu{
+    position: absolute;
+    top: 49px;
+    left: 10px;
+    line-height: 30px;
+    background-color: #ffffff;
+    display: none;
+    padding: 1px 2px;
+}
+.student-zone-submenu li{
+    display: block;
+    text-align: center;
+}
+.student-zone-submenu a{
+    background-color: transparent;
+    padding: 0;
+}
+.menu-list li:hover .student-zone-submenu{
+    display: block;
+}
+.development-header{
+    width: 100%;
+    height: 150px;
+    background-image: url(../images/breadcrumbs.jpg);
+    background-attachment: fixed;
+}
+.development-header-content{
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.development-header-content h4{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+.development-header-content a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 5px;
+}
+.development-header-content span{
+    color: #ffffff;
+    height: 20px;
+}
+.development-header-content a:hover{
+    color: #ffc107;
+}
+.best-courses-container{
+    width: 100%;
+    height: auto;
+}
+.best-courses{
+    width: 96%;
+    height: auto;
+    margin-left: 2%;
+}
+.heading{
+    text-align: center;
+    padding: 50px 10px;
+}
+.heading h5{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading h4{
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.row-1-best-courses{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.web-design-course{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.web-design-course:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+#extra{
+    font-size: 14.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-weight: 400;
+}
+#extra1{
+    font-size: 14.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.graphic-design-courses{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.graphic-design-courses:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.maya-pro{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.maya-pro:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.row-2-best-courses{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.game-design{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.game-design:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.video-editing{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.video-editing:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.blender-design{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.blender-design:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.row-3-best-courses{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.animation-2-3{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.animation-2-3:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.ui-ux-course{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.ui-ux-course:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.vfx-course{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.vfx-course:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.row-4-best-courses{
+    width: 90%;
+    height: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.animation-2D-courses{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+    margin-right: 10%;
+}
+.animation-2D-courses:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.animation-3D-courses{
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px 2px gray;
+    border-radius: 10px;
+}
+.animation-3D-courses:hover{
+    box-shadow: 5px 5px 15px 5px gray;
+}
+.p p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 8px 10px;
+    font-weight: 550;
+}
+.bottom-side{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+
+}
+#btn{
+    padding: 8px 10px;
+    background-color: #003366;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+.all-course{
+    margin: 50px 0px;
+    text-align: center;
+}
+.all-course button{
+    padding: 12px 25px;
+    background-color: #ffc107;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+}
+.demanding-courses{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.demanding-courses h4{
+    font-size: 20px;
+    font-family: cursive;
+    margin-bottom: 15px;
+}
+.demanding-courses-list a{
+    display: inline-block;
+    font-size: 12.5px;
+    border: 1px solid gray;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: .5px 3px;
+    margin-top: 5px;
+}
+.demanding-courses-list a:hover{
+    background-color: #ffc107;
+    color: #ffffff;
+    border: 1px solid yellow;
+    border-radius: 2px;
+}
+#show-more{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+   /* Footer Start  */
+
+   footer{
+    width: 100%;
+    height: auto;
+    background-color: #003366;
+}
+.footer-content{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.social-logos-footer{
+    width: 40%;
+    text-align: center;
+}
+.social-logos-footer img{
+    width: 50%;
+}
+.social-logos-footer p{
+    width: 70%;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-left: 70px;
+    line-height: 20px;
+    color: #ffffff;
+}
+.social-logos-footer h4{
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffc107;
+    text-align: left;
+    margin-left: 70px;
+}
+.footer-social-icon{
+    width: 320px;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 65px;
+}
+.footer-social-icon i{
+    margin-left: 10px;
+    text-align: center;
+    align-content: center;
+    background-color: #41566c;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+.feature-links h4{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.feature-links li{
+    list-style: none;
+    line-height: 28px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.feature-links i{
+    padding-right: 10px;
+}
+.feature-links li:hover{
+    margin-left: 8px;
+    color: #ffc107;
+    transition: all ease-in-out .5s;
+}
+.contact-footer h4{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.contact-footer a{
+    text-decoration: none;
+    color: #ffc107;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.contact-footer p{
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.contact-footer li{
+    list-style: none;
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-footer i{
+    padding-right: 10px;
+}
+.contact-footer li:hover{
+    color: #ffc107;
+    margin-left: 10px;
+    transition: all ease-in-out .6s;
+}
+.copy-right{
+    width: 100%;
+    height: 80px;
+    align-content: center;
+    background-color: #042649;
+}
+.copy-right p{
+    margin-left: 12%;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
